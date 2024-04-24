@@ -8,3 +8,29 @@ body {
   margin: 0 2px 0 2px;
 }
  */
+.homeStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+.textStyle{
+  margin-top: 1em;
+}
+.contactoStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+.divImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;  
+}
