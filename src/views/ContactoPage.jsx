@@ -1,5 +1,6 @@
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const ContactoPage = () => {
     return (
@@ -25,7 +26,9 @@ const ContactoPage = () => {
                     mt:3,
                     pl:6,
                     pr:6}}>
-                    Enviar
+                <Link
+                    to='*'
+                    className='text-white text-decoration-none'>Enviar</Link>
             </Button>
         </div>
     )
