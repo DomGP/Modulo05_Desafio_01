@@ -1,4 +1,5 @@
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 const ContactoPage = () => {
     return (
@@ -17,6 +18,15 @@ const ContactoPage = () => {
                 placeholder='Escribe un texto...'
                 rows={4}
                 sx={{mt:5, width:'50%'}}/>
+            <Button 
+                variant="contained"
+                color='error'
+                sx={{
+                    mt:3,
+                    pl:6,
+                    pr:6}}>
+                    Enviar
+            </Button>
         </div>
     )
 }
