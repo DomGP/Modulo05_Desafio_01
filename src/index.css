@@ -1,15 +1,13 @@
-/* :root {
-  line-height: 1.5;
-  font-weight: 400;
-}
+.app{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100vh;
 
-
-body {
-  margin: 0 2px 0 2px;
 }
- */
 body{
-  font-family: monospace
+  font-family: monospace;
+  
 }
 .homeStyle{
   display: flex;
@@ -39,4 +37,17 @@ body{
 .imgStyle{
   max-width: 100%;
   height: auto;  
+}
+
+.footer {
+  margin-top: auto;
+}
+.styleFooterUno{
+  margin-top: 0.5em;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+.styleFooterDos{
+  font-family: monospace;
+  font-family: 1em;
 }

@@ -77,15 +77,6 @@ const Navigation = () => {
                                     Contacto
                                 </Link>
                             </MenuItem>
-                            {/* {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Link 
-                                        to = {`/${page}`}
-                                        className='text-decoration-none text-dark' >
-                                        {page}
-                                    </Link>
-                                </MenuItem>
-                            ))} */}
                         </Menu>
                         <CakeIcon sx={{ display: { xs: 'flex', md: 'none' }, ml:1, mt:1 }} />
                         <Typography
